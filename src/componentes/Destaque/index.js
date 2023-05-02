@@ -4,7 +4,7 @@ const Destaque = () => {
     return (
         <div className='destaque'>
             <img src='foto-principal.jpg' alt='foto em destaque' width={400} />
-            <div className='nome'>
+            <div className='descricao'>
                 <h1>Bem Vindo!</h1>
                 {/* <h3>Desenvolvedor Front-End</h3> */}
                 <p>

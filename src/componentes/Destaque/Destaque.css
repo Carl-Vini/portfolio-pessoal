@@ -19,10 +19,14 @@
 
 }
 
-.nome {
+.descricao {
     display: inline;
     position: relative; 
     right: 50px;
+}
+
+.descricao h1 {
+    font-size: 35px;
 }
 
 .destaque p {
