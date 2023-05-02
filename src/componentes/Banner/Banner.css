@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    /* background-color: #1C86EE; */
+    /* display: flex; */
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+   
+}
+
+header img {
+    width: 5%;
+     border-radius: 10px; 
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 16px;
+    left: -200px;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 14px;
+    color: #1C86EE;
+    cursor: pointer;  
+}
+
+header nav h2 {
+    transition: color 0.5s ease-in-out;
+}
+
+header nav h2:hover {
+    cursor: pointer;
+    color: lightgrey;
+}
