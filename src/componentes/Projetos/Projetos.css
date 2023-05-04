@@ -17,7 +17,6 @@
 .local-card {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto;
     gap: 24px;
     margin-bottom: 64px;
     text-align: center; 
