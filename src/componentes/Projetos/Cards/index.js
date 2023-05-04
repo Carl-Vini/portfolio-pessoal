@@ -2,11 +2,15 @@ import './Cards.css'
 
 const Card = (props) => {
     return (
-        <section className='card'>
-            <h2>Nome do Projeto</h2>
-            <img src='./projeto-1.png' alt='imagem do Projeto' width={100}/>
-            <h3>Descriçao do Projeto</h3>
-        </section>
+
+        <a href={props.href} >
+            <section className='card'>
+                <img src={props.src} alt='imagem do Projeto' width={260} height={180} />
+                <h2>{props.nome}</h2>
+                <h3>{props.descricao}</h3>
+            </section>
+        </a>
+
     )
 }
 
