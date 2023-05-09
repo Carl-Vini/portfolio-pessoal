@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
 .card {
     display: flex;
     flex-direction: column;
@@ -9,7 +11,8 @@
     align-items: flex-start;
     border-radius: 30px;
     /* background-color: #1C86EE; */
-    
+    font-family: 'Libre Baskerville', serif;
+    padding-left: 28px;
 }
 
 .card img {
@@ -24,13 +27,14 @@
 }
 
 .card h2 {
-    color: #1C86EE;
+    color: black;
     padding-top: 16px;
-
+    font-weight: 700;
 }
 
 .card h3 {
-    color: #1C86EE;
+    color: black;
     font-size: 14px;
     padding-top: 8px;
+    font-weight: 100;
 }
