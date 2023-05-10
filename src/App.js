@@ -1,16 +1,14 @@
-import './App.css';
-import Banner from './componentes/Banner/index.js';
-import Destaque from './componentes/Destaque';
-import Footer from './componentes/Footer';
-import Projeto from './componentes/Projetos';
+
+import Banner from './componentes/Banner';
+import Home from './componentes/Home';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 
 function App() {
   return (
     <>
-      <Banner />
-      <Destaque></Destaque>
-      <Projeto />
-      <Footer/>
+    <Banner />
+   <Home />
     </>
   );
 }

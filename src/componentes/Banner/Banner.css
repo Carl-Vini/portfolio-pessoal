@@ -50,6 +50,7 @@ header nav {
 
 header nav h2 {
     transition: color 0.3s ease-in-out;
+    text-decoration: none;
 }
 
 header nav h2:hover {
