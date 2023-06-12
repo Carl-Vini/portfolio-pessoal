@@ -24,7 +24,7 @@ header img {
 
 .botao-exibir {
     color: #1C86EE;
-    transition: color 0.2s ease-in-out;
+    transition: color 0.5s ease-in-out;
 }
 
 .botao-exibir:hover {
@@ -49,7 +49,7 @@ header nav {
 }
 
 header nav h2 {
-    transition: color 0.3s ease-in-out;
+    transition: color 0.5s ease-in-out;
     text-decoration: none;
 }
 
@@ -58,4 +58,8 @@ header nav h2:hover {
     color: #93c5f7;
     border-left: 3px solid #1C86EE;
     padding-left: 10px;
+}
+
+.link {
+    text-decoration: none;
 }

@@ -2,8 +2,7 @@ import { useState } from 'react';
 import './Banner.css';
 import { FaBars } from 'react-icons/fa'
 import { Link } from 'react-router-dom';
-import Home from '../../paginas/Home';
-import About from '../About';
+
 
 const Banner = (props) => {
 
@@ -21,8 +20,13 @@ const Banner = (props) => {
 
             {exibirOpcoes && (
                 <nav>
-                  <h2>Home</h2>   
-                   <h2>About Me</h2>
+                    <Link className='link' to="/">
+                        <h2>Home</h2>
+                    </Link>
+                    <Link className='link' to="/aboutme">
+                        <h2>About Me</h2>
+                    </Link>
+
                 </nav>
             )
             }
