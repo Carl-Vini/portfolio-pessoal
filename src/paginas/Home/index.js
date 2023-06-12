@@ -1,12 +1,11 @@
-import Banner from "../Banner"
-import Destaque from "../Destaque"
-import Footer from "../Footer"
-import Projeto from "../Projetos"
+import Destaque from "../../componentes/Destaque"
+import Footer from "../../componentes/Footer"
+import Projeto from "../../componentes/Projetos"
 
 const Home = () => {
     return (
         <>
-            
+
             <Destaque />
             <Projeto />
             <Footer />

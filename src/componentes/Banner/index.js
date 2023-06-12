@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './Banner.css';
 import { FaBars } from 'react-icons/fa'
 import { Link } from 'react-router-dom';
-import Home from '../Home';
+import Home from '../../paginas/Home';
 import About from '../About';
 
 const Banner = (props) => {
