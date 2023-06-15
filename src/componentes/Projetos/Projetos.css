@@ -33,6 +33,7 @@
     .local-card {
         display: flex;
         flex-direction: column;
+        padding-left: 3rem;
     }
 }
 
