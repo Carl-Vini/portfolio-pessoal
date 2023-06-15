@@ -24,3 +24,15 @@
     padding: 16px 32px; 
 }
 
+@media (max-width: 744px) {
+    .titulo{
+        font-size: 1rem;
+        left: 5rem;
+    }
+    
+    .local-card {
+        display: flex;
+        flex-direction: column;
+    }
+}
+

@@ -14,8 +14,6 @@
 
 .destaque img {
     clip-path: polygon(14% 0, 59% 0, 91% 50%, 59% 100%, 14% 100%);
-
-
 }
 
 .descricao {
@@ -30,4 +28,48 @@
 
 .destaque p {
     padding-top: 64px;
+}
+
+@media (max-width: 744px) {
+    .destaque {
+        padding: 3rem 2rem;
+        text-align: left;
+    }
+
+    .destaque img {
+        width: 75%;
+        clip-path: polygon(25% 0, 70% 0, 70% 100%, 24% 100%);
+        display: inline-block;
+        position: relative;
+        left: -2rem;
+        padding-top: .5rem;
+        
+    }
+
+    .destaque h1 {
+        position: absolute;
+        top: -3rem;
+        font-size: 24px;
+        display: block;
+        right:  8.5rem;
+        text-align: center;
+        
+    }
+
+    .descricao-texto {
+        width: 100%;
+        transform: translate(-40%, 1%);
+
+    }
+
+    .destaque p {
+        padding: 4rem 0;
+        display: block;
+        width: 110%;
+        font-size: 1rem;
+        line-height: 1.3rem;
+
+    }
+
+
 }
