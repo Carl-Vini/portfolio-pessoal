@@ -5,3 +5,9 @@
     padding-right: 64px;
     
 }
+
+@media (max-width: 744px) {
+    .rodape {
+        padding-right: 1rem;
+    }
+}
