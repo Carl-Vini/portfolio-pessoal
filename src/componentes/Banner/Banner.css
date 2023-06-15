@@ -63,3 +63,16 @@ header nav h2:hover {
 .link {
     text-decoration: none;
 }
+
+
+@media (max-width: 744px) {
+    .botao-exibir {
+        position: relative;
+        right: 5rem;
+        color: #0f7eed;
+    }
+
+    header nav {
+        left: 1rem;
+    }
+}

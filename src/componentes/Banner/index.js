@@ -21,10 +21,10 @@ const Banner = (props) => {
             {exibirOpcoes && (
                 <nav>
                     <Link className='link' to="/">
-                        <h2>Home</h2>
+                        <h2 onClick={hideNav}>Home</h2>
                     </Link>
                     <Link className='link' to="/aboutme">
-                        <h2>About Me</h2>
+                        <h2 onClick={hideNav}>About Me</h2>
                     </Link>
 
                 </nav>

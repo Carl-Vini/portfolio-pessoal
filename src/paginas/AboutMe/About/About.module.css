@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
+
+.about_container {
+    margin-top: 3rem;
+    display: flex;
+    padding: 1.5rem 10rem;
+    gap: 3rem;
+    align-items: center;
+    
+}
+
+.foto {
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    float: right;
+}
+
+.paragrafo {
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+    font-family: 'Adamina', serif;
+}
+
+@media (max-width: 744px) {
+    .about_container {
+        flex-direction: column;
+        padding: 1.5rem 2rem;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .foto {
+        width: 80%;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+
+    }
+}
