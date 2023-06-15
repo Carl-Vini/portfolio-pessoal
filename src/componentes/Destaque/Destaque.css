@@ -48,11 +48,12 @@
 
     .destaque h1 {
         position: absolute;
-        top: -3rem;
+        top: -1rem;
         font-size: 24px;
         display: block;
-        right:  8.5rem;
+        right:  4.5rem;
         text-align: center;
+        width: 120%;
         
     }
 
