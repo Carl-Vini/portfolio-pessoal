@@ -10,7 +10,7 @@ const Destaque = () => {
                 {/* <h3>Desenvolvedor Front-End</h3> */}
                 <div className='descricao-texto'>
                 <p>
-                    Meu nome é Carlos Vinícius, sou desenvolvedor front-end apaixonado por tecnologia e habilidoso em HTML, CSS, JavaScript e React.js.Meu site de portfolio reflete minha paixão e habilidade em criar experiências de usuário envolventes e impressionantes.
+                    Meu nome é Carlos Vinícius, sou desenvolvedor front-end apaixonado por tecnologia e habilidoso em HTML, CSS, JavaScript e React.js. Meu site de portfolio reflete minha paixão e habilidade em criar experiências de usuário envolventes e impressionantes.
                 </p>
                 </div>
                 
