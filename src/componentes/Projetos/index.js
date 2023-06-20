@@ -1,8 +1,16 @@
+import { useState } from 'react';
 import Card from './Cards';
 import './Projetos.css'
 
 
 const Projeto = (props) => {
+
+
+    const [maisProjetos, setMaisProjetos] = useState(false)
+
+    const hideProjetos = () => {
+        setMaisProjetos(!maisProjetos)
+    }
 
     const projetos = [
         {
@@ -20,11 +28,11 @@ const Projeto = (props) => {
             href: 'https://life-counter-beta.vercel.app'
         },
         {
-            nome: 'Landing Page',
-            descricao: 'Landing Page da Loopstudio',
+            nome: 'Info-Dev',
+            descricao: 'website com informações sobre tecnologias de programação',
             id: 3,
-            src: './projeto-3.jpg',
-            href: 'https://landing-page-loopstudio.vercel.app'
+            src: './projeto-3.png',
+            href: 'https://info-dev.vercel.app'
         },
         {
             nome: 'Qr-Code',
@@ -61,20 +69,35 @@ const Projeto = (props) => {
             src: './projeto-8.png',
             href: 'https://bateria-virtual-omega.vercel.app'
         }
-        
-        
-
     ]
+
+    const novosProjetos = [
+        {
+                nome: 'Alura Space',
+                descricao: 'Galeria de fotos espaciais',
+                id: 9,
+                src: './projeto-9.png',
+                href: 'https://galeria-react-tau.vercel.app'
+        },
+    ]
+    
 
     return (<>
         <div className='titulo'>
             <h1 >Projetos</h1>
         </div>
+        <div className='botao-projetos'>
+            <h2 onClick={hideProjetos}>Mostrar mais</h2>
+        </div>
         <div className='local-card'>
-            
+                {maisProjetos && (
+                    novosProjetos.map(projeto => <Card nome={projeto.nome} key={projeto.id} descricao={projeto.descricao} src={projeto.src} href={projeto.href} />)
+                )}  
+                    
+                
+
                 {projetos.map(projeto => <Card nome={projeto.nome} key={projeto.id} descricao={projeto.descricao} src={projeto.src} href={projeto.href} />)}
                 {/* <Card nome={} descricao={}/> */}
-                
         </div>
     </>
     );
