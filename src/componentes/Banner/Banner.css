@@ -56,7 +56,6 @@ header nav h2 {
 header nav h2:hover {
     cursor: pointer;
     color: #93c5f7;
-    border-left: 3px solid #1C86EE;
     padding-left: 10px;
 }
 
@@ -64,6 +63,11 @@ header nav h2:hover {
     text-decoration: none;
 }
 
+.link-active {
+    border-left: 3px dashed #1C86EE; 
+    
+    padding-left: 6px;
+}
 
 @media (max-width: 744px) {
     .botao-exibir {
